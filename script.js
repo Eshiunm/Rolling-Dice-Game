@@ -17,4 +17,8 @@ diceEl.classList.add('hidden');
 btnRoll.addEventListener('click', () => {
   // 1. Generate a random dice roll
   const currentDiceNumber = Math.trunc(Math.random() * 6) + 1;
+
+  // 2. Display dice
+  diceEl.classList.remove('hidden');
+  diceEl.src = `dice-${currentDiceNumber}.png`;
 });
