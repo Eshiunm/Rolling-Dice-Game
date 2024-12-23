@@ -44,3 +44,6 @@ btnRoll.addEventListener('click', () => {
     player1El.classList.toggle('player--active');
   }
 });
+
+// Holding current score functionality （保留當前分數功能）
+btnHold.addEventListener('click', () => {});
