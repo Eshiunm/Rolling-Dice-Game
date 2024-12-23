@@ -16,6 +16,5 @@ diceEl.classList.add('hidden');
 // Rolling dice functionality （擲骰子功能）
 btnRoll.addEventListener('click', () => {
   // 1. Generate a random dice roll
-  // 2. Display dice
-  // 3 Check for rolled 1: if true, switch to ner player
+  const currentDiceNumber = Math.trunc(Math.random() * 6) + 1;
 });
